@@ -939,6 +939,16 @@
 			margin: 0;
 		}
 
+		#contact-me{
+			color: black;
+		}
+
+		#email-me{
+			font-weight: 900;
+			display: inline-block;
+
+		}
+
 /* Header */
 
 	#header {
