@@ -913,9 +913,9 @@
 		margin: 0 0 2em 0;
 	}
 
-	/*.right-align{
-		text-align: right;
-	}*/
+	.project-header{
+		text-align: center;
+	}
 
 		.work-item .image {
 			margin: 0 0 1.5em 0;
