@@ -62,14 +62,30 @@
 					</section>
 
 					<div id="one-half">
-						<p>Technologies:      Javascript, Backbone, Ruby, Rails, jQuery, SQL, HTML, CSS, git, TDD, Bootstrap</p>
+						<p>Technologies: Javascript, Ruby, Rails, jQuery, React, Backbone, D3, SQL, HTML, CSS, git, Bootstrap</p>
 					</div>
 				<!-- Two -->
 					<section id="two">
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="http://www.grumpypants.io/session/new"><img src="images/all_blogs_grumblr.jpg" alt="" class="image fit"/></a>
+								<a href="http://ec2-35-161-171-205.us-west-2.compute.amazonaws.com/"><img src="images/eventwatcher.png" alt="" class="image fit"/></a>
+							</article>
+
+							<article class="6u$ 12u$(xsmall) work-item">
+								<h3 class="project-header">EventWatcher</h3>
+								<p>An web app that tracks and displays event prices</p>
+								<ul>
+									<li>Runs background jobs using crontab to regularly hit the SeatGeek API and collect ticket sale information </li>
+									<li>Displays interactive, graphic representation of ticket pricing using D3.js
+</li>
+									<li>Hosted on an Amazon Web Services e3 instance</li>
+								</ul>
+							</article>
+
+
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="https://grumpypants.herokuapp.com/session/new"><img src="images/all_blogs_grumblr.jpg" alt="" class="image fit"/></a>
 							</article>
 
 							<article class="6u$ 12u$(xsmall) work-item">
@@ -84,21 +100,17 @@
 								</ul>
 							</article>
 
-							<article class="6u 12u$(xsmall) work-item right-align">
-
-								<h3 class="project-header">Chess</h3>
-								<p>A Chess game built in ruby to played at the terminal</p>
-								<ul>
-									<li>Custom recursive method “deep_dup” copies the game board to check if move is valid and/or puts other player in check</li>
-									<li>Chess pieces inherit from parent classes where piece movements are similar (ex: bishops and rooks both inerit from “Slidable” class)</li>
-
-								</ul>
-
-
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="http://codymcnamara.github.io/solarcub/"><img src="images/solarcub_new_design.png" alt="" class="image fit"/></a>
 							</article>
+							<article class="6u$ 12u$(xsmall) work-item right-align">
 
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="https://github.com/codymcnamara/chess"><img src="images/chess-black.jpg" alt="" class="image fit"/></a>
+								<h3 class="project-header">SolarCub</h3>
+								<p>An app to help homeowners make informed solar purchases</p>
+								<ul>
+									<li>Uses googlemaps API to create an input box for users to easily select their city. This allows the application to accurately capture geographic coordinates for those cities</li>
+									<li>Sends form data in ajax query to PV Watts API in order to generate accurate estimate of annual kilowatt hour production</li>
+								</ul>
 							</article>
 
 							<article class="6u 12u$(xsmall) work-item">
@@ -115,22 +127,21 @@
 								</ul>
 							</article>
 
-							<article class="6u 12u$(xsmall) work-item right-align">
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="https://github.com/codymcnamara/chess"><img src="images/chess-black.jpg" alt="" class="image fit"/></a>
+							</article>
 
-								<h3 class="project-header">SolarCub</h3>
-								<p>An app to help homeowners make informed solar purchases</p>
+							<article class="6u$ 12u$(xsmall) work-item right-align">
+
+								<h3 class="project-header">Chess</h3>
+								<p>A Chess game built in ruby to played at the terminal</p>
 								<ul>
-									<li>Uses googlemaps API to create an input box for users to easily select their city. This allows the application to accurately capture geographic coordinates for those cities</li>
-									<li>Sends form data in ajax query to PV Watts API in order to generate accurate estimate of annual kilowatt hour production</li>
+									<li>Custom recursive method “deep_dup” copies the game board to check if move is valid and/or puts other player in check</li>
+									<li>Chess pieces inherit from parent classes where piece movements are similar (ex: bishops and rooks both inerit from “Slidable” class)</li>
 
 								</ul>
-
-
 							</article>
 
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="http://codymcnamara.github.io/solarcub/"><img src="images/solarcub_new_design.png" alt="" class="image fit"/></a>
-							</article>
 						</div>
 					</section>
 
@@ -139,9 +150,8 @@
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/codymcnamara" class="icon fa-linkedin"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.linkedin.com/in/codymcnamara" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 					<li><a href="https://github.com/codymcnamara" class="icon fa-github"><span class="label">Github</span></a></li>
-					<li><a href="http://codycodycodyblr.tumblr.com/" class="icon fa-tumblr"><span class="label">Dribbble</span></a></li>
 				</ul>
 				<ul class="copyright">
 					<li>&copy; Cody McNamara</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
